@@ -10,20 +10,6 @@
 - NOTA HACER LAS PRÁCTICAS MEDIANTE coderpad.io / onecompiler.com / sqliteonline.com
 ```
 
-```diff
-* 1) Tienes que clonar el repositorio 
-  git clone https://github.com/SocialOplesk/test_python_hack_2.git
-  
-* 2) Instalar los paquetes
-  pip install -r requirements.txt
-
-* 3) Para validar los hacks
-  pytest test_hack.py -v (ejecuta todos los test)
-  pytest test_hack.py::test_hack_1 (ejecuta un test en específico)
-  pytest test_hack.py::test_hack_3 -v (ejecuta un test en específico)
-```
-<br/>
-
 <br/>
 
 |Hacks | Details | 
@@ -38,6 +24,7 @@
 
 
 ## 🏆 H-1
+![](https://github.com/SocialOplesk/hack_sql_1/blob/main/assets/register_database.png)
 ```sh
 
 design register database
@@ -92,6 +79,7 @@ crud register database
 
 
 ## 🏆 H-3
+![](https://github.com/SocialOplesk/hack_sql_1/blob/main/assets/contact_database.png)
 ```sh
 design contact database
 
@@ -124,6 +112,7 @@ table contact_request
 
 
 ## 🏆 H-5
+![](https://github.com/SocialOplesk/hack_sql_1/blob/main/assets/ecommerce_database.png)
 ```sh
 design ecommerce database
 
