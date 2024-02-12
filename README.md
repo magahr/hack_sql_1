@@ -59,6 +59,9 @@ create table users(
 ```sh
 crud register database
 
+-----------------
+⚡ example script
+
 ✔ create:
 - insert into countries (name) values ('argentina') , ('colombia'),('chile');
 - select * from countries;
@@ -138,6 +141,7 @@ crud ecommerce database
 
 ✔insert:
 - insert 3 record in all tables
+- create 3 invoices
 
 ✔delete:
 - delete last first user:
