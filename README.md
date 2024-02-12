@@ -25,6 +25,8 @@
 
 ## 🏆 H-1
 ![](https://github.com/SocialOplesk/hack_sql_1/blob/main/assets/register_database.png)
+
+![](https://github.com/SocialOplesk/hack_sql_1/blob/main/gifs/hack_sql_1_run_gif.gif)
 ```sh
 
 design register database
@@ -52,6 +54,8 @@ create table users(
 
 
 ## 🏆 H-2
+![](https://github.com/SocialOplesk/hack_sql_1/blob/main/gifs/hack_sql_1_install_gif.gif)
+
 ```sh
 crud register database
 
