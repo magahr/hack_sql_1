@@ -136,12 +136,6 @@ tables:
 ```sh
 crud ecommerce database
 
-tables:
-table countries
-table priorities
-table contact_request
-
-
 ✔insert:
 - insert 3 record in all tables
 
