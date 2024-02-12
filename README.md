@@ -94,20 +94,16 @@ tables:
 ```sh
 crud contact database
 
-tables:
-table countries
-table priorities
-table contact_request
-
-
 ✔insert:
 - insert 5 record in countries
 - insert 3 record in priorities
 - insert 3 record in contact_request
 
-✔delete last user:
+✔delete;
+- delete last user:
 
-✔update first user:
+✔update:
+- delete first user:
 ```
 
 
@@ -139,7 +135,11 @@ crud ecommerce database
 ✔insert:
 - insert 3 record in all tables
 
-✔delete last first user:
+✔delete:
+- delete last first user:
 
-✔update last user:
+✔update:
+- update last user:
+- update all taxes:
+- update all prices
 ```
