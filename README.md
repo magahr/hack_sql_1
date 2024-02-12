@@ -150,4 +150,26 @@ crud ecommerce database
 - update last user:
 - update all taxes:
 - update all prices
+
+-----------------
+⚡ example script
+
+
+✔ Many to Many: products table and customers table
+
+create table products (
+    id_product serial primary key,
+);
+
+create table customers (
+    id_customer serial primary key,
+);
+
+create table products_customers (
+    id_customer integer,
+    id_product integer,
+    foreign key (id_customer) references customers (id_customer),
+    foreign key (id_product) references products (id_product),
+    PRIMARY KEY (id_customer, id_product)
+);
 ```
