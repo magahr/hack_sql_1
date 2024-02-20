@@ -110,7 +110,7 @@ crud contact database
 - delete last user:
 
 ✔update:
-- delete first user:
+- update first user:
 ```
 
 
