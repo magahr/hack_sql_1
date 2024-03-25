@@ -159,10 +159,12 @@ crud ecommerce database
 
 create table products (
     id_product serial primary key,
+    ...
 );
 
 create table customers (
     id_customer serial primary key,
+    ...
 );
 
 create table products_customers (
