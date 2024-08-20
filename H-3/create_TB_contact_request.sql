@@ -8,3 +8,4 @@ create table contact_request(
  foreign key (id_country) references countries (id_country),
  foreign key (id_priority) references priorities (id_priority)
 );
+
