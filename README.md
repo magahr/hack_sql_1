@@ -120,14 +120,14 @@ crud contact database
 design ecommerce database
 
 tables:
-- table countries
-- table roles
-- table taxes
-- table offers
-- table discounts
-- table payments
-- table customers
-- table invoice_status
+- table countries (ok)
+- table roles     (ok)
+- table taxes     (ok) ojo puse tipo numeric
+- table offers    (ok)
+- table discounts (ok)
+- table payments  (ok) ojo que tipo de campo es type
+- table customers (ok) cual seria aqui la clave pk, el correo?
+- table invoice_status (ok)
 - table products
 - table product_customers
 - table invoices
