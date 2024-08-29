@@ -128,7 +128,7 @@ tables:
 - table payments  (ok) ojo que tipo de campo es type
 - table customers (ok) cual seria aqui la clave pk, el correo?
 - table invoice_status (ok)
-- table products        
+- table products
 - table product_customers
 - table invoices
 - table orders
