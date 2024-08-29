@@ -41,11 +41,11 @@ create table payments(
 
 create table taxes(
   id_tax serial primary key,
-  type varchar(50) not null  
+  percentage varchar(50) not null  
 );
 
 create table customers(
-  email 
+  email varchar(50) primary key,
   id_country numeric not null,
   id_role numeric not null,
   name varchar(50) not null, 
@@ -54,16 +54,13 @@ create table customers(
   physical_address varchar(50) not null
 );
 
-
-
 create table invoices(
-  id_invoices serial primary key
+  id_invoices serial primary key,
   id_customer numeric not null,
   id_payment numeric not null,
   id_invoice_status numeric not null,
-  date 
-  total_to_pay
-)
+  date DATE,
+  total_to_pay numeric not null);
 
 create table roles(
   id_role serial primary key,
@@ -76,18 +73,18 @@ create table countries(
 );
 
 create table orders(
-  id_order serial primary key
+  id_order serial primary key,
   id_invoice numeric not null,
   id_product numeric not null,
   details numeric not null,
   amonunt numeric not null,
   price numeric not null
-)
+);
 
 
 
 create table invoice_status(
-  id_invoice_status serial primary key,,
+  id_invoice_status serial primary key,
   status varchar(50) not null
 );
 
