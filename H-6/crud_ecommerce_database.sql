@@ -1,16 +1,65 @@
 
-CREATE DATABASE ecommerce;
 
-create table discounts(
-  id_discount serial primary key,
-  status varchar(50) not null,
-  percentage numeric not null  
-);
+INSERT INTO discounts (status, percentage)
+VALUES
+    ('Activo', 10),
+    ('Inactivo', 15),
+    ('Activo', 20);
 
-create table offers(
-  id_offer serial primary key,
-  status varchar(50) not null  
-);
+INSERT INTO offers (status)
+VALUES
+    ('Activo'),
+    ('Inactivo'),
+    ('Activo');
+
+INSERT INTO products (id_discount, id_offer, id_tax, name, details, minimun_stock, maximun_stock, current_stock, price, price_with_taz, status)
+VALUES
+    (1, 2, 3, 'Producto Uno', 'Description of Producto Uno', 10, 100, 50, 29.99, 34.99, 'Active'),
+    (1, 2, 3, 'Producto Dos', 'Description of Producto Dos', 20, 200, 100, 49.99, 59.99, 'Active'),
+    (1, 2, 3, 'Producto Tres', 'Description of Producto tres', 30, 300, 150, 69.99, 84.99, 'Active');
+    
+INSERT INTO product_customers (id_product, id_customer)
+VALUES
+    (1, 1),
+    (1, 2),
+    (2, 1),
+    (3, 3);
+
+INSERT INTO payments (type)
+VALUES
+    ('Efectivo'),
+    ('Credito'),
+    ('Transferencia');
+
+INSERT INTO taxes (percentage)
+VALUES
+    ('10%'),
+    ('5%'),
+    ('15%');
+
+INSERT INTO customers (email, id_country, id_role, name, age, password, physical_address)
+VALUES
+    ('cliente1@gmail.com', 1, 1, 'Pepito Pregunton', 30, 'password1', 'El Silencio'),
+    ('cliente2@gmail.com', 2, 2, 'Maria Laquelimpia', 25, 'password2', 'La Candelaria');
+    ('cliente3@gmail.com', 3, 3, 'Luis ElSabrosito', 25, 'password2', 'La Candelaria');
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 create table products(
   id_product serial primary key,

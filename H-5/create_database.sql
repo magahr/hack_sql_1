@@ -29,7 +29,7 @@ create table products(
 
 create table product_customers(
   id_product  numeric not null,
-  id_customer serial primary key
+  id_customer numeric not null
 
 );
 
