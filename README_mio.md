@@ -4,5 +4,5 @@
 <br/>
 
 📚 ejecución de los sript https://sqliteonline.com)
----
+-------------
 

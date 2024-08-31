@@ -1,4 +1,4 @@
-
+-- hack 5 SQL
 CREATE DATABASE ecommerce;
 
 create table discounts(

@@ -86,7 +86,7 @@ SET price = 50
 WHERE id_price > 0;
 
 
-
+ack 
 
 
 
