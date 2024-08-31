@@ -40,8 +40,34 @@ VALUES
 INSERT INTO customers (email, id_country, id_role, name, age, password, physical_address)
 VALUES
     ('cliente1@gmail.com', 1, 1, 'Pepito Pregunton', 30, 'password1', 'El Silencio'),
-    ('cliente2@gmail.com', 2, 2, 'Maria Laquelimpia', 25, 'password2', 'La Candelaria');
+    ('cliente2@gmail.com', 2, 2, 'Maria Laquelimpia', 25, 'password2', 'La Candelaria'),
     ('cliente3@gmail.com', 3, 3, 'Luis ElSabrosito', 25, 'password2', 'La Candelaria');
+
+INSERT INTO invoices (id_customer, id_payment, id_invoice_status, date, total_to_pay)
+VALUES
+    (123456, 789012, 345678, '2022-01-01', 100.00),
+    (234567, 890123, 456789, '2022-02-01', 200.00),
+    (345678, 901234, 567890, '2022-03-01', 300.00);
+
+ INSERT INTO roles (name)
+VALUES
+    ('Admin'),
+    ('User'),
+    ('Guest');
+
+INSERT INTO countries (name)
+VALUES
+    ('United States'),
+    ('Mexico'),
+    ('Canada');
+iNSERT INTO orders (id_invoice, id_product, details, amonunt, price)
+VALUES
+    (123456, 789012, 345678, 1, 10.99),
+    (234567, 890123, 456789, 2, 24.99),
+    (345678, 901234, 567890, 3, 39.99),
+    (123456, 789012, 345678, 1, 10.99),
+    (234567, 890123, 456789, 2, 24.99),
+    (345678, 901234, 567890, 3, 39.99);
 
 
 
