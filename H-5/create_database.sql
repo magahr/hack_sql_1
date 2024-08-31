@@ -88,7 +88,10 @@ create table invoice_status(
   status varchar(50) not null
 );
 
-
+create table prices(
+  id_price serial primary key,
+  price numeric not null
+);
 
 
 

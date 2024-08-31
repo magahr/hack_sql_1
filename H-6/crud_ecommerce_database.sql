@@ -69,9 +69,26 @@ VALUES
     (234567, 890123, 456789, 2, 24.99),
     (345678, 901234, 567890, 3, 39.99);
 
+DELETE FROM users ORDER BY id_users DESC LIMIT 1;
+
+UPDATE users
+SET email = 'papimirey@gmail.com', name = 'PapipitoBello'
+WHERE id_users = 1;
 
 
-    
+UPDATE taxes
+SET percentage = '10%'
+WHERE id_tax > 0;
+
+
+UPDATE prices
+SET price = 50
+WHERE id_price > 0;
+
+
+
+
+
 
 
 
